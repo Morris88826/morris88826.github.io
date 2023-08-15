@@ -45,8 +45,8 @@
       <p>
         Here is my
         <a
-          href="https://drive.google.com/file/d/1bPc4VpecCHwViR9Sj_7yezgX284OsMlS/view?usp=share_link"
-          >resume</a
+          href="https://drive.google.com/file/d/1L1IvHYPq3pTsOgpY0p89820ERXZI1Jmq/view?usp=sharing"
+          >1-page resume</a
         >.
       </p>
     </div>
