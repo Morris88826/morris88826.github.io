@@ -12,7 +12,7 @@
           >Neurobit Technologies</a
         >
       </h2>
-      <p>Taiwan 6/2022 ~ 8/2022, 12/2022 ~ now</p>
+      <p>Taiwan 06/2022 ~ 07/2023</p>
       <ul>
         <li>
           Conduct extensive research on eye gaze models capable of performing real-time predictions of pupil center, eye gaze, and iris movements on grayscale images.

@@ -7,8 +7,8 @@
       <h1 class="section">About me</h1>
       <br />
       <p>
-        I am a BSc graduate from Hong Kong University of Science and Technology, majoring in Computer Science and Applied Mathematics with a minor in Robotics. 
-        My research interests span Computer Vision, Image Processing, Artificial Intelligence, and Robotics.
+        I am currently pursuing a Master of Computer Science at Texas A&M University. I hold a recent BSc degree from Hong Kong University of Science and Technology, majoring in Computer Science and Applied Mathematics, with a minor in Robotics, achieving First-Class Honors. 
+        My areas of expertise encompass Computer Vision, Image Processing, Artificial Intelligence, App Development, and Robotics.
       </p>
       <p>
         My fascination with Computer Vision and Robotics originated during my first year of college when I joined the HKUST Robotics team's Intelligence Car Racing project. 
@@ -45,8 +45,11 @@
       <p>
         Here is my
         <a
-          href="https://drive.google.com/file/d/1L1IvHYPq3pTsOgpY0p89820ERXZI1Jmq/view?usp=sharing"
-          >1-page resume</a
+          href="https://drive.google.com/file/d/1aaFvTF1kFiZqHIVaVKrP59LbVGM9Tiud/view?usp=sharing"
+          >resume</a
+        > and         <a
+          href="https://drive.google.com/file/d/1hQI3d_c2QPLC9lbI4_23Y-vZWJ3rW8oh/view?usp=sharing"
+          >CV</a
         >.
       </p>
     </div>
