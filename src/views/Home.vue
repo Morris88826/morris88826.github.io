@@ -5,50 +5,60 @@
   >
     <div>
       <h1 class="section">About me</h1>
-      <br />
-      <p>
-        I am currently pursuing a Master of Computer Science at Texas A&M University. I hold a recent BSc degree from Hong Kong University of Science and Technology, majoring in Computer Science and Applied Mathematics, with a minor in Robotics, achieving First-Class Honors. 
-        My areas of expertise encompass Computer Vision, Image Processing, Artificial Intelligence, App Development, and Robotics.
-      </p>
-      <p>
-        My fascination with Computer Vision and Robotics originated during my first year of college when I joined the HKUST Robotics team's Intelligence Car Racing project. 
-        This experience ignited my passion for developing efficient algorithms to create autonomous vehicles that utilized camera information to navigate the track. 
-        It was during this time that I realized the potential of image processing and feature extraction in enabling computers to perceive the world and make decisions akin to humans. 
-        Motivated by this realization, I actively sought opportunities to further deepen my knowledge in these domains. 
-        This led me to participate in various undergraduate research programs and intern at Lilee Systems, where I worked with their self-driving car team, contributing to the development of intelligent transportation solutions.
-      </p>
+      <section id="about">
+        <h2>Overview: </h2>
+        <ul>
+          <li> I'm currently  I'm pursuing my Master of computer science degree at <strong>Texas A&M University</strong></li>
+          <li> I proudly hold a BSc degree from the <strong>Hong Kong University of Science and Technology</strong> where I majored in Computer Science and Applied Mathematics and minored in Robotics. I graduated with First-Class Honors, a testament to my dedication and passion. </li>
+          <li> My tech toolbox includes proficiency in areas such as <strong>Full-Stack App Development, Computer Vision, Image Processing, Artificial Intelligence, and Robotics</strong>.</li>
+          <li> I have a robust foundation in software development, with proficiency in C#, Python, C++, Vue.js, and SQL. </li>
+          <li> I am particularly interested in <strong>App/Web development</strong> with its potential to create user-centric solutions and <strong>Computer Vision & Machine Learning </strong> that allows computers to obtain human-level perception.</li>
+        </ul>
+      
 
-      <p>
-        During the final year of my undergraduate studies, I collaborated with Professor Chi-Keung Tang to conduct research on efficient algorithms for human action recognition. 
-        Human action recognition in the field of computer vision aims to accurately classify the actions performed by individuals in video footage.
-        <!--Numerous approaches have been explored, including RGB-based methods with traditional CNN or LSTM based techniques or 2D+T approaches, involving the encoding of 2D skeletons across time, known as 2D temporal skeletons, into a latent space for supervised learning.-->
-        In our research, we proposed the utilization of 3D skeletons due to their advantageous properties of photometric, geometric, and viewpoint invariance. As a result, a single 3D+T (4D) skeleton proved sufficient for learning the relevant action class.
-        We undertook the creation of a new dataset called HAA4D, which contains broader number of action classes (300), and designed it to be easily expandable and further proposed a few-shot architecture capable of distinguishing additional actions with limited training data per action class. 
+        <hr>
 
+        <h2>Professional Expertise:</h2>
+        <ul>
+          <li> <strong>Full-Stack Development (2022-2023):</strong> Led the development of a specialized medical application using C# and .NET WPF, emphasizing gaze analytics for Nystagmus diagnosis.</li>
+          <li> <strong>Frontend Development at Alliance Technology Global Limited (2021):</strong> Pioneered the creation of a dynamic, modular admin portal, underscoring flexibility and user-centric design.</li>
+          <li> <strong>Research at HKUST (2021):</strong> Undertook a research project in Human Action Recognition, which culminated in my role as a Research Assistant, deepening my expertise in Computer Vision and Deep Learning.</li>
+          <li> <strong>Lilee Systems Internship (2019):</strong> Played a significant role in enhancing self-driving car solutions, applying both foundational and advanced knowledge in real-world scenarios. </li>
+          <li> <strong>HKUST Robotics Team (2018-2019):</strong> Delved into Computer Vision and Robotics, crafting algorithms for the Intelligence Car Racing project emphasizing camera-driven autonomous vehicles.</li>
+        </ul>
+        <hr>
 
-        <!--State-of-the-art 3D skeleton-based models, such as ST-GCN or Shift-GCN, typically require substantial amounts of training data to effectively train the network. 
-        However, there is a scarcity of 3D+T datasets encompassing a wide range of diverse action classes with most prominent dataset, NTU RGB+D 120, features merely 120 distinct actions. 
-        Therefore, to address this limitation, we undertook the creation of a new dataset called HAA4D, which contains broader number of action classes (300), and designed it to be easily expandable. 
-        Furthermore, we proposed a few-shot architecture capable of distinguishing additional actions with limited training data per action class. -->
+        <h2>Research Endeavors:</h2>
+        
+          <strong>HAA4D: Few-Shot Human Atomic Action Recognition via 3D Spatio-Temporal Skeletal Alignment</strong>
+          <ul> 
+            <li> Supervised by
+              <a href="https://cse.hkust.edu.hk/~cktang/bio-sketch-review.htm">
+              Chi-Keung Tang
+              </a>. </li>
+            <li> Our focus? Developing efficient algorithms for human action recognition using 3D skeletons. This project saw the inception of the <strong>HAA4D dataset</strong>, which aims to inspire further research in skeletal human action recognition. For a deeper dive into this research, check out <a href="https://cse.hkust.edu.hk/haa4d/" target="_blank">this link</a>. </li>
+          </ul>
+        <hr>
 
-        For more detailed information, please refer to the provided link <a href="https://cse.hkust.edu.hk/haa4d/">here</a>. Our aspirations for the HAA4D dataset are to inspire and facilitate fruitful future research endeavors in the domain of skeletal human action recognition. We hope that
-        HAA4D will spawn fruitful future works on skeletal human action
-        recognition.
-      </p>
-      <p>
-        Beyond research, I find immense joy in programming and application development. 
-        I have collaborated with friends to develop games using Unity, built user-focused applications with Swift to enhance crowdsourcing experiences, and assisted companies in website development using Vue.js. 
-        I thrive on continuous learning, always seeking to expand my knowledge and become a versatile individual. 
-        My ultimate aspiration is to contribute to the realization of the high-tech society depicted in sci-fi movies like Blade Runner. 
-        I aim to be among those individuals who actively contribute to this remarkable future.
-      </p>
+        <h2>Passion Projects:</h2>
+        <ul>
+            <li> Away from academic rigors, I wear the hat of a developer, having collaborated on game development using <strong>Unity</strong>, mobile apps with <strong>Swift</strong>, and web solutions via <strong>Vue.js</strong>. </li>
+        </ul>
+        <hr>
+
+        <h2>Vision & Goals:</h2>
+        <ul>
+            <li> At heart, I'm a techie with dreams that mirror the high-tech societies from sci-fi movies, like Blade Runner. I yearn to be part of the transformative journey, shaping a future where technology and humanity intertwine seamlessly </li>
+        </ul>
+        <br>
+    </section>
       <p>
         Here is my
         <a
-          href="https://drive.google.com/file/d/1aaFvTF1kFiZqHIVaVKrP59LbVGM9Tiud/view?usp=sharing"
-          >resume</a
+          href="https://drive.google.com/file/d/1aaFvTF1kFiZqHIVaVKrP59LbVGM9Tiud/view?usp=sharing" target="_blank"
+          >Resume</a
         > and         <a
-          href="https://drive.google.com/file/d/1hQI3d_c2QPLC9lbI4_23Y-vZWJ3rW8oh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1hQI3d_c2QPLC9lbI4_23Y-vZWJ3rW8oh/view?usp=sharing" target="_blank"
           >CV</a
         >.
       </p>
@@ -77,6 +87,10 @@ p {
 
 h1 {
   font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 .section {

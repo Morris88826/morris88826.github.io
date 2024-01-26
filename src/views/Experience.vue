@@ -12,19 +12,82 @@
           >Neurobit Technologies</a
         >
       </h2>
-      <p>Taiwan 06/2022 ~ 07/2023</p>
+      <p>Taipei, Taiwan (06/2022 - 07/2023)</p>
       <ul>
         <li>
-          Conduct extensive research on eye gaze models capable of performing real-time predictions of pupil center, eye gaze, and iris movements on grayscale images.
+          <b>Full-Stack Application Development:</b>  
+          Pioneered the design and enhancement of a patient-centric medical application crafted in C# with WPF .NET, following the MVVM architecture. 
+          This intuitive application, tailored for healthcare specialists, seamlessly integrates oculomotor tests and harnesses real-time gaze prediction analytics. 
+          Its objective is to revolutionize the nystagmus diagnostic experience by delivering comprehensive diagnostic reports.
         </li>
         <li>
-          Utilize advanced analysis techniques to assess an individual's pupil center and gaze movements, enabling the identification of potential Nystagmus symptoms.
+          <b>Deep Learning Research:</b> 
+          Led an eye gaze research initiative leveraging deep learning methodologies, achieving real-time human gaze accuracy with a Mean Absolute Error (MAE) of less than 5 degrees.
         </li>
         <li>
-          Design and implement a labeling tool using ASP.NET Core Blazor, specifically tailored for efficient organization and curation of the company's NSS_dataset.
+          <b>Tool Design:</b>
+          Crafted a sophisticated data labeling tool utilizing ASP.NET Core Blazor, resulting in enhanced data organization and a significant boost in curation efficiency of the company's NSS_dataset.
         </li>
         <li>
-          Develop a comprehensive application dedicated to oculomotor tests, encompassing the entire workflow from video recording to the generation of detailed test reports. This application is built using WPF with MVVM structure, ensuring a seamless and user-friendly experience.
+          <b>Keywords:</b> App Development, Deep Learning, Computer Vision, Signal Processing, Data Encryption, Agile Development
+        </li>
+        <li>
+          <b>Skills:</b> C#(WPF .NET, ASP.NET Core Blazor), Python(Pytorch, Tensorflow, OpenCV), SQL, Git
+        </li>
+      </ul>
+      <br />
+      <h2>
+        Research Assistant @
+        <a href="https://cse.hkust.edu.hk/">HKUST CSE Department</a>
+      </h2>
+      <p style="margin-bottom:0.5em">Hong Kong (07/2021 - 12/2021)</p>
+      <p>Supervisor: 
+        <a href="https://cse.hkust.edu.hk/~cktang/bio-sketch-review.htm"
+            >Chi-Keung Tang
+        </a>
+      </p>
+      <ul>
+        <li>
+          <b> 3D Human Action Recognition:</b> 
+          Design the skeleton-based action recognition network that make use of
+          few-shot learning and the explicit geometric property of human
+          skeleton in the globally aligned space. Perform ablation studies and compare the result with state-of-the- art skeleton-based models such as ST-GCN and Shift-GCN.
+        </li>
+        <li>
+          <b> Data Curation: </b>
+          Manually curated the 2D skeletons predicted from <a href="https://arxiv.org/abs/2211.03375">AlphaPose</a> for joints that are 
+          occluded or out-of-boundary. Develop an annotation tool using Tkinter that supports faster data curation.
+        </li>
+        <li>
+          <b> 3D+T Skeleton Generation from Videos:</b>
+          Create an end-to-end process of generating 3D+T skeleton from 2D images. Utilize the curated 2D skeletons and train a new 2D skeleton prediction model
+          that refines prediction when joints are occluded or out-of-bound from 2D images. Employ a 3D pose estimation model(<a href="https://arxiv.org/abs/2006.07778">EvoSkeleton</a>) to generate 3D skeletons from 2D skeletons.
+        </li>
+        <li>
+          <b> HAA4D dataset: </b>
+          We introduce the HAA4D dataset, notable for its cleanliness, diversity, and class balance where each class is viewpoint-balanced with the use of 4D skeletons. 
+          This dataset holds promise for future action recognition investigations.
+        </li>
+        <li>
+          <b> Links:</b>
+          <ul>
+            <li>
+              HAA4D: Few-Shot Human Atomic Action Recognition via 3D Spatio-Temporal
+          Skeletal Alignment (<a href="https://arxiv.org/abs/2202.07308">arXiv</a>)
+            </li>
+            <li>
+              Project Website:
+              <a href="https://cse.hkust.edu.hk/haa4d/">here</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <b>Keywords:</b> 
+          Computer Vision, Deep Learning, Ablation Studies, Research
+        </li>
+        <li>
+          <b>Skills:</b> 
+          Python(Pytorch), LaTex, Overleaf
         </li>
       </ul>
       <br />
@@ -34,80 +97,22 @@
           >Alliance Technology Global Limited</a
         >
       </h2>
-      <p>Hong Kong 11/2021 ~ 12/2021</p>
+      <p>Hong Kong (11/2021 - 12/2021)</p>
       <ul>
         <li>
-          Develop a highly functional and intuitive admin portal for <a href="https://www.aerolink.me/">Aero Link</a>, encompassing comprehensive CRUD (Create, Read, Update, Delete) capabilities for managing crews, clients, jobs, and other relevant entities.
+          <b>Frontend Web Development:</b>
+          Spearheaded the development of a highly functional and intuitive admin portal for <a href="https://www.aerolink.me/">Aero Link</a>, encompassing comprehensive CRUD (Create, Read, Update, Delete) capabilities for managing crews, clients, jobs, and other relevant entities.
         </li>
         <li>
-          Utilize Vue.js to implement the website, leveraging its robust framework and extensive tooling to ensure an efficient and dynamic user experience.
+          <b>Modular Design:</b>
+          Designed a flexible and scalable architecture through modularization for the portal, enabling seamless deployment by other companies with minimal effort and customization requirements.
         </li>
         <li>
-          Design a flexible and scalable architecture through modularization for the portal, enabling seamless deployment by other companies with minimal effort and customization requirements.
-        </li>
-      </ul>
-      <br />
-      <h2>
-        Research Assistant @
-        <a href="https://cse.hkust.edu.hk/">HKUST CSE Department</a>
-      </h2>
-      <p>Hong Kong 09/2021 ~ 12/2021</p>
-      <ul>
-        <li>
-          HAA4D: Few-Shot Human Atomic Action Recognition via 3D Spatio-Temporal
-          Skeletal Alignment. Supervisor: Professor
-          <a href="https://cse.hkust.edu.hk/~cktang/bio-sketch-review.htm"
-            >Chi-Keung Tang
-          </a>
+          <b>Keywords:</b>
+          App Development, Web Development, Agile Development
         </li>
         <li>
-          Design the skeleton-based action recognition network that make use of
-          few-shot learning and the explicit geometric property of human
-          skeleton in the globally aligned space.
-        </li>
-        <li>
-          Design the annotation tool that supports faster user labeling for
-          HAA4D dataset.
-        </li>
-        <li>
-          Perform ablation studies and compare the result with state-of-the-
-          art skeleton-based models such as ST-GCN and Shift-GCN.
-        </li>
-        <li>
-          Project Website:
-          <a href="https://cse.hkust.edu.hk/haa4d/">here</a>
-        </li>
-      </ul>
-
-      <br />
-      <h2>
-        Part-Time Research Assistant @
-        <a href="https://cse.hkust.edu.hk/">HKUST CSE Department</a>
-      </h2>
-      <p>Hong Kong 07/2021 ~ 08/2021</p>
-      <ul>
-        <li>
-          Topic: Deep 3D+T Skeletal Graph Convolutions for Action Recognition.
-          Supervisor: Professor
-          <a href="https://cse.hkust.edu.hk/~cktang/bio-sketch-review.htm"
-            >Chi-Keung Tang
-          </a>
-        </li>
-        <li>
-          Create a new 3D+T Human Action Dataset that is more challenging for
-          Human Pose Estimation.
-        </li>
-        <li>
-          Implement a Human Action Recognition model that uses Spectral Graph
-          Convolutions, thus using its inherent graph clustering properties,
-          leading to better human action classification.
-        </li>
-        <li>
-          Investigate on 3D temporal human skeleton prediction from 2D videos.
-        </li>
-        <li>
-          Build a GAN-based network that utilizes the predicted 3D skeleton to
-          recover the human body region where it is being occluded.
+          <b>Skills:</b> Vue.js, JavaScript, HTML, CSS, Git
         </li>
       </ul>
       <br />
@@ -115,15 +120,23 @@
         Software Engineer @
         <a href="https://www.lileesystems.com/">Lilee Systems</a>
       </h2>
-      <p>Taipei, 12/2019 ~ 01/2020</p>
+      <p>Taipei, Taiwan (12/2019 - 01/2020)</p>
       <ul>
-        <li>Contributed to the self-driving car team, collaborating on cutting-edge projects and initiatives.</li>
         <li>
-          Employed advanced computer vision techniques to enable real-time monitoring of bus driver behavior.
+          <b> Feature Extraction and Object Recognition: </b>
+          Real-time monitoring of bus drivers' behavior, leveraging advanced feature extraction techniques on specific regions of interest, such as the steering wheel, using state-of-the-art Computer Vision algorithms
         </li>
-        <li>Developed efficient programs for dataset management and accelerated labeling processes.</li>
         <li>
-          Conducted feature extraction and object recognition on specific regions of interest, such as the steering wheel, using state-of-the-art algorithms.
+          <b> Dataset Management and Labeling:</b>
+          Developed efficient programs with Tkinter for dataset management and accelerated labeling processes.
+        </li>
+        <li>
+          <b> Keywords:</b>
+          Computer Vision, Image Processing, Deep Learning, Data Labeling
+        </li>
+        <li>
+          <b>Skills:</b>
+          Python(Pytorch, OpenCV, Tkinter)
         </li>
       </ul>
 
@@ -131,12 +144,37 @@
       <br />
       <h1 class="section">Other Experience</h1>
       <h2>
+        Software Team Member @
+        <a href="https://tamurobomasters.com/"
+          >Texas A&M Robomasters</a
+        >
+      </h2>
+      <p>Texas, United States (09/2023 - now)</p>
+      <ul>
+        <li>
+          <b>Robomasters Competition:</b>
+          TODO
+        </li>
+        <li>
+          <b>Website Development:</b> Maintain the team website and develop new features for better UI/UX and improve user experience.
+        </li>
+        <li>
+          <b>Keywords:</b>
+          Robotics, Computer Vision, Web Development
+        </li>
+        <li>
+          <b>Skills:</b>
+          C++, Python, OpenCV, HTML, CSS, JavaScript, Squarespace
+        </li>
+      </ul>
+      <!--
+      <h2>
         Software Developer @
         <a href="https://urop.ust.hk/"
           >Undergraduate Research Opportunities Program</a
         >
       </h2>
-      <p>Hong Kong, 02/2020 ~ 06/2020</p>
+      <p>Hong Kong (02/2020 - 06/2020)</p>
       <ul>
         <li>
           Topic: Augmented Reality Technology for Visually Impaired. Supervisor:
@@ -159,7 +197,7 @@
           >Undergraduate Research Opportunities Program</a
         >
       </h2>
-      <p>Hong Kong, 06/2019 ~ 08/2019</p>
+      <p>Hong Kong (06/2019 - 08/2019)</p>
       <ul>
         <li>
           Topic: AI meets Big Data. Supervisor: Professor
@@ -179,12 +217,13 @@
           Conducted thorough testing to evaluate the accuracy and processing time of the indoor localization system.
         </li>
       </ul>
+      -->
       <br />
       <h2>
-        Software Developer @
+        Software Team Member @
         <a href="https://robotics.ust.hk/">HKUST Robotics Team</a>
       </h2>
-      <p>Hong Kong, 09/2018 ~ 08/2019</p>
+      <p>Hong Kong (09/2018 - 08/2019)</p>
       <ul>
         <li>
           Experienced tutor providing guidance on image processing techniques to newcomers for competition preparation.
@@ -197,7 +236,7 @@
           Qualified for the National Round of the 14th NXP Cup Intelligent Car Racing Competition in the "Creative" category (August 2019).
         </li>
       </ul>
-      <p>Hong Kong, 02/2018 ~ 08/2018</p>
+      <p>Hong Kong (02/2018 - 08/2018)</p>
       <ul>
         <li>Proficient in programming embedded systems, specifically utilizing C++ on NXP K60.</li>
         <li>

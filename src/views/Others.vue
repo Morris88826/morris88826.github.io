@@ -9,14 +9,15 @@
       <h2>Skills</h2>
       <h3>Programming Languages</h3>
       <ul>
-        <li>Python, C++/C (Proficient)</li>
-        <li>JavaScript, HTML, MySQL (Upper intermediate)</li>
-        <li>Java, C#, Swift (Intermediate)</li>
+        <li>Python, C++/C, C# (Proficient)</li>
+        <li>Ruby, JavaScript, HTML, MySQL (Upper intermediate)</li>
+        <li>Java, Swift (Intermediate)</li>
       </ul>
       <h3>Libraries & Frameworks</h3>
       <ul>
-        <li>PyTorch, Tensorflow 2, tkinter</li>
-        <li>Vue, Unity</li>
+        <li>PyTorch, Tensorflow 2, OpenCV, tkinter</li>
+        <li>Vue.js, Unity</li>
+        <li>Ruby on Rails</li>
       </ul>
       <h3>Natural Languages</h3>
       <ul>

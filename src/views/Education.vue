@@ -7,7 +7,12 @@
       <h1 class="section">Education</h1>
       <br />
       <h2>Degree programs</h2>
-      <h3>Hong Kong University of Science and Technology (2017 – 2021)</h3>
+      <h3>Texas A&M University (2023 – now)</h3>
+      <ul>
+        <li>Master of Computer Science</li>
+        <li>GPA: 4.0/4.0</li>
+      </ul>
+      <h3>The Hong Kong University of Science and Technology (2017 – 2021)</h3>
       <ul>
         <li>BSc in Computer Science & Applied Mathematics</li>
         <li>Minor in Robotics</li>

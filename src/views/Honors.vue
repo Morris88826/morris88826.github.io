@@ -9,6 +9,9 @@
       <h2>Tech</h2>
       <ul>
         <li>
+          Google Hash Code Online Qualifications: 400th Place. (Feburary, 2020)
+        </li>
+        <li>
           The Third Price of the 13th NXP Cup Intelligent Car Racing Competition
           in the “Dual Car” category. (South China Region, July 2018)
         </li>
@@ -16,17 +19,14 @@
           Qualified to enter the National Round of the 14th NXP Cup Intelligent
           Car Racing Competition in the “Creative” category. (August, 2019)
         </li>
-        <li>
-          Google Hash Code Online Qualifications: 400th Place. (Feburary, 2020)
-        </li>
       </ul>
       <br />
       <h2>Non-Tech</h2>
       <ul>
-        <li>Recipient of HKUST Admission Scholarship (2017~2018).</li>
         <li>
-          Talent Development Scholarship (2018/2019): Awarded to talented
-          students. From Hong Kong SAR Government.
+          High Flyers Program Scholarship (2020/2021): Designated to students
+          who have obtained excellent performance in Game Programming, Computer
+          Music, or Creative Sound Design. From HKUST Alumni Endowment Fund.
         </li>
         <li>
           Dean’s List, HKUST (2018, 2020, 2021): Awarded to students who achieve
@@ -34,10 +34,10 @@
           Hong Kong University of Science and Technology.
         </li>
         <li>
-          High Flyers Program Scholarship (2020/2021): Designated to students
-          who have obtained excellent performance in Game Programming, Computer
-          Music, or Creative Sound Design. From HKUST Alumni Endowment Fund.
+          Talent Development Scholarship (2018/2019): Awarded to talented
+          students. From Hong Kong SAR Government.
         </li>
+        <li>Recipient of HKUST Admission Scholarship (2017~2018).</li>
       </ul>
     </div>
   </div>
