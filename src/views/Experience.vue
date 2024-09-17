@@ -7,6 +7,18 @@
       <h1 class="section">Work Experience</h1>
       <br />
       <h2>
+        Student Technician @
+        <a href="https://engineering.tamu.edu/cse/index.html">Texas A&M University CSE Department</a>
+      </h2>
+      <p style="margin-bottom:0.5em">Texas, United States (02/2024 - now)</p>
+      <p>Supervisor: 
+        <a href="https://engineering.tamu.edu/cse/profiles/rgutierrez-osuna.html"
+            >Ricardo Gutierrez-Osuna
+        </a>
+      </p>
+    
+      <br />
+      <h2>
         Software Engineer (Computer Vision) @
         <a href="https://www.neurobittech.com/"
           >Neurobit Technologies</a
