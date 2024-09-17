@@ -8,7 +8,7 @@
       <section id="about">
         <h2>Overview: </h2>
         <ul>
-          <li> I'm currently  I'm pursuing my Master of computer science degree at <strong>Texas A&M University</strong></li>
+          <li> I'm currently  I'm pursuing my Master of Science in Computer Science degree at <strong>Texas A&M University</strong></li>
           <li> I proudly hold a BSc degree from the <strong>Hong Kong University of Science and Technology</strong> where I majored in Computer Science and Applied Mathematics and minored in Robotics. I graduated with First-Class Honors, a testament to my dedication and passion. </li>
           <li> My tech toolbox includes proficiency in areas such as <strong>Full-Stack App Development, Computer Vision, Image Processing, Artificial Intelligence, and Robotics</strong>.</li>
           <li> I have a robust foundation in software development, with proficiency in C#, Python, C++, Vue.js, and SQL. </li>
@@ -54,8 +54,7 @@
     </section>
       <p>
         Here is my
-        <a
-          href="https://drive.google.com/file/d/1aaFvTF1kFiZqHIVaVKrP59LbVGM9Tiud/view?usp=sharing" target="_blank"
+        <a :href="pdfLink" target="_blank"
           >Resume</a
         > and         <a
           href="https://drive.google.com/file/d/1hQI3d_c2QPLC9lbI4_23Y-vZWJ3rW8oh/view?usp=sharing" target="_blank"
@@ -74,7 +73,9 @@ export default defineComponent({
   name: "Home",
   components: {},
   data() {
-    return {};
+    return {
+      pdfLink: "/Resume_ Mu-Ruei Tseng.pdf"
+    };
   },
   methods: {},
 });

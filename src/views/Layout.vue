@@ -83,6 +83,21 @@
               >LinkedIn</a
             >
           </p>
+          <p
+            style="
+              font-size: 12px;
+              display: flex;
+              align-items: center;
+              margin-bottom: 0px;
+            "
+          >
+            <GoogleOutlined />
+            <a
+              href="https://scholar.google.com/citations?user=X0tFoE8AAAAJ&hl=zh-TW"
+              style="margin-left: 5px"
+              >Google Scholar</a
+            >
+          </p>
         </div>
       </div>
     </div>
@@ -151,6 +166,21 @@
               >LinkedIn</a
             >
           </p>
+          <p
+            style="
+              font-size: 12px;
+              display: flex;
+              align-items: center;
+              margin-bottom: 0px;
+            "
+          >
+            <GoogleOutlined />
+            <a
+              href="https://scholar.google.com/citations?user=X0tFoE8AAAAJ&hl=zh-TW"
+              style="margin-left: 5px"
+              >Google Scholar</a
+            >
+          </p>
         </div>
       </div>
       <div class="col" style="margin-left: 25px" v-if="collapse">
@@ -170,10 +200,11 @@ import {
   GithubOutlined,
   LinkedinOutlined,
   MailOutlined,
+  GoogleOutlined
 } from "@ant-design/icons-vue";
 
 export default defineComponent({
-  components: { GithubOutlined, LinkedinOutlined, MailOutlined },
+  components: { GithubOutlined, LinkedinOutlined, MailOutlined, GoogleOutlined },
   methods: {
     handleResize() {
       this.window.width = window.innerWidth;

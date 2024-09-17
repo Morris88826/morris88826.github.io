@@ -9,15 +9,18 @@
       <h2>Tech</h2>
       <ul>
         <li>
+          Poster accepted for the <b>Texas A&M Global Cyber Research Institute (GCRI) Summit</b>. (September, 2024)
+        </li>
+        <li>
           Google Hash Code Online Qualifications: 400th Place. (Feburary, 2020)
         </li>
         <li>
-          The Third Price of the 13th NXP Cup Intelligent Car Racing Competition
+          The Third Price of <b>the 13th NXP Cup Intelligent Car Racing Competition</b>
           in the “Dual Car” category. (South China Region, July 2018)
         </li>
         <li>
-          Qualified to enter the National Round of the 14th NXP Cup Intelligent
-          Car Racing Competition in the “Creative” category. (August, 2019)
+          Qualified to enter the National Round of <b>the 14th NXP Cup Intelligent
+          Car Racing Competition</b> in the “Creative” category. (August, 2019)
         </li>
       </ul>
       <br />
