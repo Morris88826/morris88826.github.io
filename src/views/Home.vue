@@ -20,6 +20,8 @@
 
         <h2>Professional Expertise:</h2>
         <ul>
+          <li> <strong>Graduate Research Assistant at Texas A&M:</strong> 
+            Designed deep learning models for hypoglycemia detection using ECG signals and released the SenSE-T1DM dataset integrating ECG, PPG, and CGM for multimodal research in Type 1 Diabetes. </li> 
           <li> <strong>Full-Stack Development (2022-2023):</strong> Led the development of a specialized medical application using C# and .NET WPF, emphasizing gaze analytics for Nystagmus diagnosis.</li>
           <li> <strong>Frontend Development at Alliance Technology Global Limited (2021):</strong> Pioneered the creation of a dynamic, modular admin portal, underscoring flexibility and user-centric design.</li>
           <li> <strong>Research at HKUST (2021):</strong> Undertook a research project in Human Action Recognition, which culminated in my role as a Research Assistant, deepening my expertise in Computer Vision and Deep Learning.</li>

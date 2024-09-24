@@ -7,7 +7,7 @@
       <h1 class="section">Work Experience</h1>
       <br />
       <h2>
-        Student Technician @
+        Graduate Research Assistant @
         <a href="https://engineering.tamu.edu/cse/index.html">Texas A&M University CSE Department</a>
       </h2>
       <p style="margin-bottom:0.5em">Texas, United States (02/2024 - now)</p>
@@ -16,6 +16,22 @@
             >Ricardo Gutierrez-Osuna
         </a>
       </p>
+      <ul>
+        <li> <b>Hypoglycemia Detection:</b> Research on deep learning models for hypoglycemia detection, leveraging ECG signal data to improve real-time monitoring and early detection for diabetic patients. </li>
+        <li> <b>SenSE-T1DM dataset: </b> Released the first public multimodal dataset to integrate ECG, PPG, and CGM data, setting a new
+          standard for multi-modal physiological research in Type 1 Diabetes (T1D).
+          <ul>
+            <li>
+              Paper: To be published
+            </li>
+            <li>
+              Dataset Link:
+              <a href="https://github.com/Morris88826/SeNSE/tree/main">here</a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
     
       <br />
       <h2>

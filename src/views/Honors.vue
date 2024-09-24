@@ -10,6 +10,10 @@
       <ul>
         <li>
           Poster accepted for the <b>Texas A&M Global Cyber Research Institute (GCRI) Summit</b>. (September, 2024)
+          <ul>
+            <li>Project Website: <a href="https://diversefake-0c42611f051a.herokuapp.com/" target="_blank">here</a></li> 
+            <li>Poster: <a href="diversefake_poster.pdf" target="_blank">here</a></li>
+          </ul>
         </li>
         <li>
           Google Hash Code Online Qualifications: 400th Place. (Feburary, 2020)
