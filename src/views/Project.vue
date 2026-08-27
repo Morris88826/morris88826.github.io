@@ -62,7 +62,7 @@ export default defineComponent({
           desc: "Transformer-based model for blood glucose prediction from intermittent single-lead ECG. Uses time-aware beat aggregation and a multi-objective loss. Published at IEEE BHI 2025.",
           github: "",
           demo: "",
-          paper: "",
+          paper: "https://ieeexplore.ieee.org/document/11269483",
           tags: ["PyTorch", "Transformer", "Healthcare AI", "ECG", "Glucose Prediction"],
         },
       ],

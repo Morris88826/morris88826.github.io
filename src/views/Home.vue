@@ -15,12 +15,12 @@
       </p>
       <nav class="links" aria-label="Profile links">
         <a :href="pdfLink" target="_blank">Resume</a>
-        <a
+        <!-- <a
           href="https://drive.google.com/file/d/1hQI3d_c2QPLC9lbI4_23Y-vZWJ3rW8oh/view?usp=sharing"
           target="_blank"
         >
           CV
-        </a>
+        </a> -->
         <router-link :to="{ name: 'publications' }">Publications</router-link>
         <a href="https://scholar.google.com/citations?user=X0tFoE8AAAAJ&hl=zh-TW" target="_blank">
           Google Scholar
@@ -87,7 +87,7 @@ export default defineComponent({
   name: "Home",
   data() {
     return {
-      pdfLink: "/Resume_ Mu-Ruei Tseng.pdf",
+      pdfLink: "/Resume_Mu_Ruei_Tseng.pdf",
     };
   },
 });

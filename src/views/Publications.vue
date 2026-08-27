@@ -27,6 +27,9 @@
           <p class="links-row">
             Streaming voice conversion and anonymization with time-varying
             timbre representations and less than 80 ms GPU latency.
+          </p>
+          <p class="links-row links-row-spaced">
+            <a href="https://arxiv.org/abs/2602.09389" target="_blank">Paper</a>
             <a href="https://anonymized0826.github.io/TVTSyn/" target="_blank">Demo</a>
             <button
               v-if="figures.tvtsyn"
@@ -49,6 +52,9 @@
           <p class="links-row">
             Speaker representation learning for streaming voice conversion,
             removing the separate speaker encoder and reducing model size by 19%.
+          </p>
+          <p class="links-row links-row-spaced">
+            <a href="" target="_blank">Paper</a>
             <a href="https://morris88826.github.io/VOSSA/" target="_blank">Demo</a>
             <button
               v-if="figures.vossa"
@@ -71,6 +77,9 @@
           <p class="links-row">
             Real-time speech anonymization with dynamic valence-arousal emotion
             control and causal speech emotion recognition.
+          </p>
+          <p class="links-row links-row-spaced">
+            <a href="" target="_blank">Paper</a>
             <a href="https://ghadynasrallah.github.io/decra-demo" target="_blank">Demo</a>
             <button
               v-if="figures.decra"
@@ -99,7 +108,9 @@
           <p class="links-row">
             PhysioCGM: synchronized ECG, PPG, EDA, skin temperature,
             accelerometry, and CGM data for Type 1 Diabetes research.
-            <a href="https://doi.org/10.1038/s41597-025-06090-6" target="_blank">DOI</a>
+          </p>
+          <p class="links-row links-row-spaced">
+            <a href="https://doi.org/10.1038/s41597-025-06090-6" target="_blank">Paper</a>
             <a href="https://doi.org/10.6084/m9.figshare.28136294" target="_blank">Dataset</a>
             <a href="https://github.com/PSI-TAMU/PhysioCGM" target="_blank">Code</a>
             <button
@@ -120,6 +131,10 @@
           <p class="links-row">
             Transformer-based glucose prediction from intermittent single-lead
             ECG using time-aware beat aggregation and a multi-objective loss.
+          </p>
+          <p class="links-row links-row-spaced">
+            <a href="https://ieeexplore.ieee.org/document/11269483" target="_blank">Paper</a>
+            <a :href="posters.ecgluformer" target="_blank">Poster</a>
             <button
               v-if="figures.ecgluformer"
               class="fig-btn"
@@ -142,7 +157,9 @@
           <p class="links-row">
             CNN and ensemble-learning approach for aggregating ECG beat
             morphology for non-invasive hypoglycemia prediction.
-            <a href="https://doi.org/10.1177/19322968251319347" target="_blank">DOI</a>
+          </p>
+          <p class="links-row links-row-spaced">
+            <a href="https://doi.org/10.1177/19322968251319347" target="_blank">Paper</a>
             <button
               v-if="figures.hypoglycemia"
               class="fig-btn"
@@ -169,7 +186,9 @@
           <p class="links-row">
             Few-shot human action recognition using globally aligned 3D+T
             skeletons; introduces HAA4D with 3,390 samples across 300 classes.
-            <a href="https://arxiv.org/abs/2202.07308" target="_blank">arXiv</a>
+          </p>
+          <p class="links-row links-row-spaced">
+            <a href="https://arxiv.org/abs/2202.07308" target="_blank">Paper</a>
             <a href="https://cse.hkust.edu.hk/haa4d/" target="_blank">Project</a>
             <a href="https://github.com/Morris88826/HAA4D" target="_blank">Code</a>
             <button
@@ -213,6 +232,15 @@ export default defineComponent({
         ecgluformer: false,
         hypoglycemia: false,
         haa4d: false,
+      },
+      posters: {
+        tvtsyn: "",
+        vossa: "",
+        decra: "",
+        physiocgm: "",
+        ecgluformer: "/posters/ECGluFormer___BHI_2025_Poster.pdf",
+        hypoglycemia: "",
+        haa4d: "",
       },
     };
   },
@@ -300,6 +328,10 @@ p {
   align-items: baseline;
   gap: 0 6px;
   margin-bottom: 0;
+}
+
+.links-row-spaced {
+  margin-top: 4px;
 }
 
 a {
