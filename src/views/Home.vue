@@ -44,6 +44,7 @@
     <section class="section-block">
       <h2>News</h2>
       <ul class="news-list">
+        <li><span class="news-date">Sep 2026</span> Three papers accepted to SLT 2026: AccentCL, PHONOS, and RAFT-Edit.</li>
         <li><span class="news-date">Jun 2026</span> Two papers accepted to Interspeech 2026: VOSSA and DECRA.</li>
         <li><span class="news-date">Jan 2026</span> TVTSyn accepted to ICLR 2026.</li>
         <li><span class="news-date">Sep 2025</span> ECGluFormer accepted to IEEE BHI 2025.</li>
