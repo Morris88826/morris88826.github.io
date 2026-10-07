@@ -14,19 +14,33 @@
         generation, audio understanding, and deployable real-time ML systems.
       </p>
       <nav class="links" aria-label="Profile links">
-        <a :href="pdfLink" target="_blank">Resume</a>
-        <!-- <a
-          href="https://drive.google.com/file/d/1hQI3d_c2QPLC9lbI4_23Y-vZWJ3rW8oh/view?usp=sharing"
-          target="_blank"
+        <a class="pill-link" :href="pdfLink" target="_blank" rel="noopener"
+          >Resume</a
         >
-          CV
-        </a> -->
-        <router-link :to="{ name: 'publications' }">Publications</router-link>
-        <a href="https://scholar.google.com/citations?user=X0tFoE8AAAAJ&hl=zh-TW" target="_blank">
-          Google Scholar
-        </a>
-        <a href="https://github.com/Morris88826" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/morris-mu-ruei-tseng/" target="_blank">LinkedIn</a>
+        <router-link class="pill-link" :to="{ name: 'publications' }"
+          >Publications</router-link
+        >
+        <a
+          class="pill-link"
+          href="https://scholar.google.com/citations?user=X0tFoE8AAAAJ&hl=zh-TW"
+          target="_blank"
+          rel="noopener"
+          >Google Scholar</a
+        >
+        <a
+          class="pill-link"
+          href="https://github.com/Morris88826"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
+        <a
+          class="pill-link"
+          href="https://www.linkedin.com/in/morris-mu-ruei-tseng/"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
       </nav>
     </section>
 
@@ -44,39 +58,39 @@
     <section class="section-block">
       <h2>News</h2>
       <ul class="news-list">
-        <li><span class="news-date">Sep 2026</span> Three papers accepted to SLT 2026: AccentCL, PHONOS, and RAFT-Edit.</li>
-        <li><span class="news-date">Jun 2026</span> Two papers accepted to Interspeech 2026: VOSSA and DECRA.</li>
-        <li><span class="news-date">Jan 2026</span> TVTSyn accepted to ICLR 2026.</li>
-        <li><span class="news-date">Sep 2025</span> ECGluFormer accepted to IEEE BHI 2025.</li>
-        <li><span class="news-date">Mar 2025</span> PhysioCGM published in Scientific Data (Nature portfolio).</li>
+        <li v-for="(item, idx) in news" :key="idx" class="news-item">
+          <span class="news-date">{{ item.date }}</span>
+          <span class="news-text">{{ item.text }}</span>
+        </li>
       </ul>
     </section>
 
     <section class="section-block">
       <h2>Selected Work</h2>
       <ul class="publication-preview">
-        <li>
-          <strong>TVTSyn</strong>, ICLR 2026: content-synchronous
-          time-varying timbre for streaming voice conversion and anonymization.
-          <a href="https://anonymized0826.github.io/TVTSyn/" target="_blank">Demo</a>
-        </li>
-        <li>
-          <strong>VOSSA</strong>, Interspeech 2026: speaker representation learning for streaming
-          speech architectures, reducing model size by 19%.
-          <a href="https://morris88826.github.io/VOSSA/" target="_blank">Demo</a>
-        </li>
-        <li>
-          <strong>DECRA</strong>, Interspeech 2026: dynamic emotion control for real-time speech
-          anonymization.
-          <a href="https://ghadynasrallah.github.io/decra-demo" target="_blank">Demo</a>
-        </li>
-        <li>
-          <strong>PhysioCGM</strong>, Scientific Data 2025: public multimodal
-          physiological dataset for non-invasive glucose estimation.
-          <a href="https://doi.org/10.1038/s41597-025-06090-6" target="_blank">DOI</a>
+        <li v-for="work in selectedWork" :key="work.name">
+          <div class="work-head">
+            <strong>{{ work.name }}</strong>
+            <span class="venue-badge">{{ work.venue }}</span>
+            <span v-if="work.award" class="award-badge">★ {{ work.award }}</span>
+          </div>
+          <p class="work-desc">
+            {{ work.description }}
+            <a
+              class="pub-link"
+              :href="work.linkUrl"
+              target="_blank"
+              rel="noopener"
+              >{{ work.linkLabel }}</a
+            >
+          </p>
         </li>
       </ul>
-      <p class="see-all"><router-link :to="{ name: 'publications' }">See all publications →</router-link></p>
+      <p class="see-all">
+        <router-link :to="{ name: 'publications' }"
+          >See all publications →</router-link
+        >
+      </p>
     </section>
   </main>
 </template>
@@ -89,6 +103,61 @@ export default defineComponent({
   data() {
     return {
       pdfLink: "/Resume_Mu_Ruei_Tseng.pdf",
+      news: [
+        {
+          date: "Sep 2026",
+          text: "VOSSA awarded as Best Student Paper at Interspeech 2026.",
+        },
+        {
+          date: "Sep 2026",
+          text: "Three papers accepted to IEEE SLT 2026: AccentCL, PHONOS, and RAFT-Edit.",
+        },
+        {
+          date: "Jun 2026",
+          text: "Two papers accepted to Interspeech 2026: VOSSA and DECRA.",
+        },
+        { date: "Jan 2026", text: "TVTSyn accepted to ICLR 2026." },
+        { date: "Sep 2025", text: "ECGluFormer accepted to IEEE BHI 2025." },
+        {
+          date: "Mar 2025",
+          text: "PhysioCGM published in Scientific Data (Nature portfolio).",
+        },
+      ],
+      selectedWork: [
+        {
+          name: "TVTSyn",
+          venue: "ICLR 2026",
+          description:
+            "Content-synchronous time-varying timbre for streaming voice conversion and anonymization.",
+          linkLabel: "Demo",
+          linkUrl: "https://anonymized0826.github.io/TVTSyn/",
+        },
+        {
+          name: "VOSSA",
+          venue: "Interspeech 2026",
+          award: "Best Student Paper",
+          description:
+            "Speaker representation learning for streaming speech architectures, reducing model size by 19%.",
+          linkLabel: "Demo",
+          linkUrl: "https://morris88826.github.io/VOSSA/",
+        },
+        {
+          name: "AccentCL",
+          venue: "IEEE SLT 2026",
+          description:
+            "Robust english accent classification with incremental expansion.",
+          linkLabel: "Demo",
+          linkUrl: "https://psi-tamu.github.io/AccentCL/",
+        },
+        {
+          name: "PhysioCGM",
+          venue: "Scientific Data 2025",
+          description:
+            "Public multimodal physiological dataset for non-invasive glucose estimation.",
+          linkLabel: "DOI",
+          linkUrl: "https://doi.org/10.1038/s41597-025-06090-6",
+        },
+      ],
     };
   },
 });
@@ -137,13 +206,24 @@ li {
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 18px;
+  gap: 10px;
+  margin-top: 20px;
 }
 
-.links a {
+.pill-link {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
   color: #175e91;
+  font-size: 14px;
   font-weight: 700;
+  padding: 6px 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.pill-link:hover {
+  background: #f0f6ff;
+  border-color: #175e91;
 }
 
 .section-block {
@@ -155,37 +235,102 @@ li {
   border-bottom: 0;
 }
 
-.compact-list,
-.publication-preview {
+.compact-list {
   margin-bottom: 0;
   padding-left: 20px;
 }
 
-.publication-preview li + li,
-.compact-list li + li,
-.news-list li + li {
+.compact-list li + li {
   margin-top: 8px;
 }
 
 .news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   margin-bottom: 0;
-  padding-left: 20px;
+  padding-left: 0;
+}
+
+.news-item {
+  align-items: baseline;
+  display: flex;
+  gap: 14px;
 }
 
 .news-date {
   color: #1f5f8b;
+  flex-shrink: 0;
+  font-size: 14px;
   font-weight: 700;
-  margin-right: 6px;
+  width: 72px;
 }
 
-.publication-preview a {
+.news-text {
+  color: #374151;
+}
+
+.publication-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.work-head {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.work-desc {
+  margin-bottom: 0;
+}
+
+.venue-badge {
+  background: #eef4fa;
+  border-radius: 4px;
   color: #175e91;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 3px 9px;
+  text-transform: uppercase;
+}
+
+.award-badge {
+  background: #fff4e0;
+  border-radius: 4px;
+  color: #92400e;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 3px 9px;
+}
+
+.pub-link {
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  color: #175e91;
+  font-size: 13px;
   font-weight: 700;
   margin-left: 8px;
+  padding: 2px 9px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.pub-link:hover {
+  background: #f0f6ff;
+  border-color: #175e91;
 }
 
 .see-all {
-  margin-top: 14px;
+  margin-top: 16px;
   margin-bottom: 0;
 }
 
@@ -201,6 +346,15 @@ li {
 
   h1 {
     font-size: 32px;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .news-date {
+    width: auto;
   }
 }
 </style>
