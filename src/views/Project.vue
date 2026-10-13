@@ -36,9 +36,9 @@ export default defineComponent({
         {
           name: "VOSSA",
           desc: "Speaker representation learning for streaming voice conversion. Removes the need for a separate speaker encoder, reducing model size by 19%. Includes evaluation pipelines for WER, speaker similarity, NISQA-MOS, and listener studies.",
-          github: "",
+          github: "https://github.com/Morris88826/VOSSA",
           demo: "https://morris88826.github.io/VOSSA/",
-          paper: "",
+          paper: "https://www.isca-archive.org/interspeech_2026/tseng26c_interspeech.html",
           tags: ["PyTorch", "Speech ML", "Voice Conversion", "WavLM", "Whisper"],
         },
         {

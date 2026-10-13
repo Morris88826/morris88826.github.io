@@ -130,7 +130,7 @@ export default defineComponent({
           description:
             "Content-synchronous time-varying timbre for streaming voice conversion and anonymization.",
           linkLabel: "Demo",
-          linkUrl: "https://anonymized0826.github.io/TVTSyn/",
+          linkUrl: "https://psi-tamu.github.io/TVTSyn/",
         },
         {
           name: "VOSSA",

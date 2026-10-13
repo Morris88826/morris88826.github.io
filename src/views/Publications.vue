@@ -190,7 +190,7 @@ export default defineComponent({
               "Ricardo Gutierrez-Osuna",
             ],
             links: [
-              { label: "Paper", url: "" },
+              { label: "Paper", url: "https://www.isca-archive.org/interspeech_2026/nasrallah26_interspeech.html" },
               { label: "Code", url: "" },
             ],
             figure: "",
@@ -199,7 +199,7 @@ export default defineComponent({
             key: "tvtsyn",
             title:
               "TVTSyn: Content-Synchronous Time-Varying Timbre for Streaming Voice Conversion and Anonymization",
-            projectUrl: "https://anonymized0826.github.io/TVTSyn/",
+            projectUrl: "https://psi-tamu.github.io/TVTSyn/",
             venue: "ICLR 2026",
             authors: [
               "Waris Quamer",
@@ -209,7 +209,7 @@ export default defineComponent({
             ],
             links: [
               { label: "Paper", url: "https://arxiv.org/abs/2602.09389" },
-              { label: "Code", url: "" },
+              { label: "Code", url: "https://github.com/PSI-TAMU/TVTSyn" },
             ],
             figure: "",
           },
